@@ -1,0 +1,2 @@
+ERROR 2018/06/20 22:59:30 util.go:100: pq: 用户 "jie" Password 认证失败 Cannot create user
+ERROR 2018/06/20 22:59:35 util.go:100: pq: 用户 "jie" Password 认证失败 Cannot find user
