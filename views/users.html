@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>admin</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+    <form class="form-signin center" role="form">
+        <h3 class="form-signin-heading">
+            <i class="fa fa-comments-o">
+                Force End a Ride
+            </i>
+        </h3>
+        <input id="forceEndRideId" type="name" name="userId" class="form-control" placeholder="rideId" required autofocus>
+        <br/>
+        <button id="forceEnd" class="btn btn-m btn-primary" type="button">Force End</button>
+        <br/>
+    </form>
+    <hr/>
+    <form class="form-signin center">
+        <h3 class="form-signin-heading">
+            <i class="fa fa-comments-o">
+                Delete User
+            </i>
+        </h3>
+        <input id="deleteUserId" type="name" name="userId" class="form-control" placeholder="userId">
+        <br/>
+        <button id="deleteUser" class="btn btn-m btn-primary" type="button">Delete User</button>
+        <br/>
+    </form>
+    <hr/>
+    <form class="form-signin center">
+        <h3 class="form-signin-heading">
+            <i class="fa fa-comments-o">
+                Cancel Subscription
+            </i>
+        </h3>
+        <input id="cancelSubscriptionUserId" type="name" name="userId" class="form-control" placeholder="userId">
+        <br/>
+        <button id="cancelSubscription" class="btn btn-m btn-primary" type="button">Cancel Subscription</button>
+        <br/>
+    </form>
+</div>
+<script src="/static/js/reload.min.js"></script>
+<script src="/static/js/jquery-2.1.1.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/agent.js"></script>
+</body>
+</html>
